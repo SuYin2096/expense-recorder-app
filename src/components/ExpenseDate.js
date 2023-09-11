@@ -1,8 +1,7 @@
 import React from "react";
 
-function ExpenseDate() {
-  const expenseDate = new Date(2023, 9, 7);
-  const formatedDate = expenseDate.toLocaleDateString();
+function ExpenseDate(props) {
+  const expenseDate = props.date;
   const month = expenseDate.toLocaleString("en-US", { month: "long" });
   const year = expenseDate.getFullYear();
   const date = expenseDate.toLocaleString("en-US", { day: "2-digit" });

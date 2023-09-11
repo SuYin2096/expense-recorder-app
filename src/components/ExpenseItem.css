@@ -6,6 +6,7 @@
   flex: 1;
   padding: 0px 10px;
   border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .expense-item__description {
@@ -25,9 +26,4 @@
 
 .expense-item__name {
   color: brown;
-}
-
-.expense-item__date {
-  color: brown;
-  padding-left: 3px;
 }
