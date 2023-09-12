@@ -1,0 +1,27 @@
+.expense-form {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  justify-content: space-between;
+  background-color: bisque;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.expense-form input {
+  width: 300px;
+  line-height: 30px;
+}
+.expense-form label {
+  display: block;
+}
+.expense-form__button button {
+  margin-top: 50px;
+  border: 1px solid brown;
+  padding: 10px 30px;
+  border-radius: 12px;
+  background-color: brown;
+  color: bisque;
+}
